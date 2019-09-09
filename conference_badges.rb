@@ -24,4 +24,5 @@ def printer(names)
   rooms = assign_rooms(names)
   
   badges.each {|badge| puts badge}
+  rooms.each {|room| puts room}
 end
